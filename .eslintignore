@@ -1,0 +1,22 @@
+/coverage
+/node_modules
+/jsconfig.json
+/npm-debug.log
+/.vscode
+/.DS_Store
+/.eslintcache
+
+# These are artifacts from various scripts
+/dist
+/archive
+/jloads.js
+/jloads.min.js
+
+# And the examples are ignored (for now).
+/examples
+**/*.min.js
+**/dist/
+**/vendor/
+/_site/
+/js/coverage/
+/site/static/sw.js

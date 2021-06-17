@@ -1,0 +1,18 @@
+# Enforce Unix newlines
+* text=auto eol=lf
+
+# Don't diff or textually merge source maps
+*.map binary
+
+/jloads.js binary
+/jloads.min.js binary
+/package-lock.json binary
+/yarn.lock binary
+
+# Assets
+*.png binary
+*.svg binary
+*.ico binary
+
+split_file_by_separator.css linguist-vendored=false
+split_file_by_separator.js linguist-vendored=false
